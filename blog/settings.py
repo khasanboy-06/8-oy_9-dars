@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'blog_app',
     'rest_framework',
     'drf_spectacular',
+
 ]
 
 MIDDLEWARE = [
@@ -134,6 +135,7 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.AllowAny',
     ],
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+    
 }
 
 
